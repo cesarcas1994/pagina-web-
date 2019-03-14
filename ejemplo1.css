@@ -42,7 +42,10 @@ colision de estilos
     /* Opera 11.10+ */
   /*  background: -o-linear-gradient(top, #000 0%, #fff 100%);*/
 
-
+header{
+  height: 250px;
+  width: 400px;
+}
 
 
 div#cajita{
