@@ -1,0 +1,201 @@
+/*
+
+-webkit- 	Google Chrome, Safari, Navegador Android
+-moz- 		Firefox
+-o- 		Opera
+-ms- 		Internet Explorer, Edge
+-khtml- 	Konqueror
+
+
+
+/*
+
+colision de estilos
+
+1-css navegador
+2-css usuario
+3-archivos enlazados en el orden.
+4-propiedades que se hereden
+5-propiedades propias del elemento
+6-clases asignadas en el orden
+7-identificador
+8-!important
+
+/*width: 100%*/;
+	/*height: 200px;
+
+	background: linear-gradient(top, #000 0%, #fff 100%);
+
+	
+    /* Safari 5.1, Chrome 10+ */
+   /*background: -webkit-linear-gradient(top, #000 0%, #fff 100%);
+
+    /* Firefox 3.6+ */
+   /* background: -moz-linear-gradient(top, #000 0%, #fff 100%);
+
+    /* IE 6 - 9 */
+   /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff',GradientType=0 );
+
+    /* IE 10+ */
+  /*  background: -ms-linear-gradient(top, #000 0%, #fff 100%);
+
+    /* Opera 11.10+ */
+  /*  background: -o-linear-gradient(top, #000 0%, #fff 100%);*/
+
+
+
+
+div#cajita{
+	width: 50%;
+	min-width: 250px;
+	max-width: 400px;
+	height: 100px;
+	border: 1px solid black;
+	margin: 20px 50px;
+	padding: 20px;
+}
+
+p#cajita_text{
+  font-size: .08in;
+  border: 1px solid red;
+  padding: 2px;
+  position: relative;
+  top: 20px,
+  left: 20px ;
+}
+
+a#link3:link{
+color: blue;	
+}
+a#link3:visited{
+color: green;	
+}
+
+h2:active{
+color:green;
+font-size: 30px;
+font-weight: bolder;	
+}
+
+input:focus{
+border-radius: 5px;	
+}
+
+h3[lang = "es-ES"]{
+color:#1F46FF;	
+}
+
+div#parrafos{
+ border: 4px solid black;
+ background: orange;
+ display: inline-block;
+}  
+#primero{
+color:#930707;
+}
+
+#primero:hover{
+color:green;	
+}
+
+
+#segundo{
+color:#CCA418;
+}
+
+.prueba{
+color:#18806B;	
+}
+
+@font-face{
+font-family: "Irlandesa";
+src: url("MeathFLF.ttf");	
+}
+
+p.fija{
+height: 100px;
+width: 50%; 
+background: #B82323;
+border: 3px solid black;
+font-family: "Irlandesa", Arial;
+} 
+
+div > p {
+font-size: 10px;	
+color: #000000 !important	
+
+}
+
+.prueba{
+	height: 50px;
+	width: 50px;
+	border-radius: 2px;
+	border: 2px solid black ;
+	background: orange;
+    text-align: center;
+    transform: rotate(20deg);
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out; 
+}
+
+.prueba:hover{
+transform: rotate(45deg) skew(20deg);
+background: red;
+width: 25px;
+}
+section{
+width: 280px;
+height: 320px;
+background: url(Ayn_Rand.jpg);
+background-repeat: no-repeat;
+position: relative;
+border-color: #233196;
+border-style: inset;
+border-width: 3px;
+border-radius: 15px;
+
+
+}
+
+.inicio_section{
+position: relative;	
+box-shadow: 1px 1px 5px #C43434;
+font-size: 13px;
+text-align: center;
+}
+
+div.padre{
+height: 50px;
+width: 50px;
+background: -moz-linear-gradient(left,blue 30%);
+position: relative;
+top: 10px;
+left: 10px;
+overflow: hidden;
+box-shadow: 4px 4px 5px #8F2929;
+
+}
+
+div.hijo1{
+height: 20px;
+width: 20px; 
+background: yellow;
+position: relative;
+top: 0px;
+left: 0px;
+float: left;
+display: inline-block;
+opacity: 
+}
+div.hijo2{
+height: 20px;
+width: 20px; 
+background: green;
+position: relative;
+top: 0px;
+left: 0px;
+clear: left;
+}
+
+
